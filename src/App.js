@@ -6,6 +6,7 @@ import './App.css';
 import React, { useState } from 'react';
 import Contact from './components/contact';
 import Resume from './components/resume';
+import './styles/style.css'
 
 function App() {
 
@@ -32,7 +33,7 @@ function App() {
   const handlePageChange = (page) => setCurrentPage(page);
 
   return (
-    <div>
+    <div className={'bigdiv'}>
       <Navbar currentPage={currentPage} handlePageChange={handlePageChange} />
       {renderNavChoice()}
       <Footer />

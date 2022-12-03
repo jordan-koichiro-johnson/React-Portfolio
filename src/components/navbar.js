@@ -3,7 +3,7 @@ import '../styles/navbar.css';
 
 function Navbar({ currentPage, handlePageChange }) {
     return (
-        <nav>
+        <nav className={'navbar'}>
             <a
                 href='#Home'
                 onClick={() => handlePageChange('Home')}

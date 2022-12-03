@@ -1,0 +1,42 @@
+a {
+    text-decoration: none;
+    color: grey;
+}
+
+.footer {
+    background-image: linear-gradient(#19191A, black);
+    position: fixed;
+    bottom: 0;
+    position: fixed;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+
+.footpart {
+    display: flex;
+    align-items: center;
+    height: fit-content;
+    height: auto;
+    flex-direction: column;
+}
+
+.socials {
+    grid-row-start: span 3;
+
+}
+
+
+.title {
+    color: white;
+}
+
+.else {
+    color: grey;
+}
+
+.else:hover {
+    color: #BBCABE;
+}

@@ -1,21 +1,36 @@
 .navbar {
-    background: #6a1b9a;
-    height: 60px;
-}
 
-.navbar a {
-    color: white;
-    font-size: 1.3rem;
-    text-decoration: none;
-    margin: 5px;
-    line-height: 3;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    background-image: linear-gradient(grey, black);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    position: sticky;
+    top: 0;
+    width: 100%;
+
 }
 
 .nav-link {
-    background-color: aqua;
+    background-image: linear-gradient(grey, black);
+    text-align: center;
+
+    padding: 1rem;
+    color: white;
 
 }
 
+.nav-link:hover {
+    color: #C3C6E1;
+}
+
 .nav-link.active {
-    background-color: green;
+    color: #C3C6E1;
+    background-image: linear-gradient(#9B8181, grey);
+
+}
+
+.nav-link.active:hover {
+    color: white;
 }
