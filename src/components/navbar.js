@@ -12,7 +12,7 @@ function Navbar({ currentPage, handlePageChange }) {
                 Homepage
             </a>
             <a
-                href='#Projects'
+                href='#ProjectPage'
                 onClick={() => handlePageChange('Projects')}
                 className={currentPage === 'Projects' ? 'nav-link active' : 'nav-link'}
             >
@@ -28,7 +28,7 @@ function Navbar({ currentPage, handlePageChange }) {
             <a
                 href='#resume'
                 onClick={() => handlePageChange('Resume')}
-                className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
+                className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}
             >
                 Resume
             </a>

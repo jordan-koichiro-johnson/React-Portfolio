@@ -10,3 +10,12 @@
     margin: 5px;
     line-height: 3;
 }
+
+.nav-link {
+    background-color: aqua;
+
+}
+
+.nav-link.active {
+    background-color: green;
+}
