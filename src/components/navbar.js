@@ -25,13 +25,13 @@ function Navbar({ currentPage, handlePageChange }) {
             >
                 Contact Me
             </a>
-            <a
+            {/* <a
                 href='#resume'
                 onClick={() => handlePageChange('Resume')}
                 className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}
             >
                 Resume
-            </a>
+            </a> */}
         </nav>
     )
 }

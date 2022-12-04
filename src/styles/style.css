@@ -3,3 +3,13 @@
     position: relative;
 
 }
+
+@media (max-width: 700px) {
+    .projPic {
+        width: 100%;
+    }
+
+    .profile {
+        width: 95%;
+    }
+}

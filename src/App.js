@@ -2,7 +2,6 @@ import Navbar from './components/navbar'
 import Homepage from './components/home';
 import Footer from './components/footer';
 import Projects from './components/projectpage';
-import './App.css';
 import React, { useState } from 'react';
 import Contact from './components/contact';
 import Resume from './components/resume';
